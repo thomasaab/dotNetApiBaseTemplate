@@ -1,0 +1,58 @@
+## Compiled binary and object files
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code and Visual Studio config
+.vscode/
+.idea/
+*.code-workspace
+
+## Mac system files
+.DS_Store
+
+## Build results
+build/
+debug/
+release/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET secrets (local dev)
+secrets.json
+*.swp
+*.swo
+
+## Logs
+*.log
+
+## Coverage and test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+
+## EF Core Migrations metadata
+*.db
+
+## Rider IDE
+.idea/
+*.sln.iml
+
+## Optional: Ignore .env or config secrets
+.env
+appsettings.Development.json
